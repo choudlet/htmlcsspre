@@ -77,6 +77,10 @@ margin-bottom: 22px;
   letter-spacing: .5px;
   text-transform: uppercase;
   font-weight: 400;
+  border:0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
 }
 
 .btn-alt {
@@ -293,4 +297,113 @@ p a {
 .row-alt {
   background: #cbe2c1;
   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding:44px;
+}
+
+.lead {
+  text-align: center;
+}
+
+.lead p {
+  font-size:21px;
+  line-height:33px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li: last-child {
+  margin-right:0;
+}
+
+/*
+====================================
+Speakers
+====================================
+*/
+
+.speakers {
+  background: white;
+  border
+}
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+#monicalewinsky aside {
+  padding-bottom: 44px;
+}
+
+.teaser img {
+  border-radius: 5px;
+  height:100px;
+  width:auto;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+.venue-hotel {
+  margin-bottom: 22px;
+}
+
+.hotel-map {
+  height: 264px;
+}
+
+.why-register {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+
+form {
+  margin-bottom: 22px;
+}
+
+input,select,textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetical Neue", Helvetica, Arial, sans-serif
+}
+
+.register-group label {
+  color: #64880;
+  cursor: pointer;
+  font-weight:400;
+}
+
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
 }
