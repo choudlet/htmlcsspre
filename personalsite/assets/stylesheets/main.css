@@ -46,3 +46,74 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	background: #98a6bc
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.header {
+	background: linear-gradient(45deg, rgba(186,192,255,1) 0%, rgba(0,128,128,1) 100%);
+}
+.name {
+	float: left;
+	border-top: 4px solid #648880;
+	padding: 40px 0 20px 0;
+	font-size: 48px;
+	line-height: 44px;
+	font-weight:100;
+	text-transform:lowercase;
+}
+
+.nav {
+	text-align:right;
+}
+.content {
+	clear:both;
+	text-align: center;
+}
+
+#selfphoto {
+	width: 300px;
+	height: 300px;
+	float: left;
+	border-radius:50px;
+}
+
+.writeup p {
+	margin: 10px;
+}
+footer {
+	clear:both
+}
+
+.stuff {
+	clear:both;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+.stuff p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
